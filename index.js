@@ -19,7 +19,7 @@ let usedsymbols = usertext.length;
 let allsymbols = 12 - usedsymbols;
 alert("თქვენ გამოიყენეთ " + usedsymbols + " სიმბოლო, დარჩენილია " + allsymbols + " სიმბოლო");
 console.log("თქვენ გამოიყენეთ " + usedsymbols + " სიმბოლო, დარჩენილია " + allsymbols + " სიმბოლო");
-
+console.log( usertext.slice(0, 12))
  //   Capitalize Your Name
 
  const userName = prompt("your name");
