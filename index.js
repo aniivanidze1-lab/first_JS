@@ -1,6 +1,9 @@
  // The Variable Swap
 let a = "3";
 let b = "8";
+let temporary = a;
+a = b;
+b = temporary;
 // a = b;
 // b = a;  - 
 /*ასე ვიფიქრე, მაგრამ არ გამოდის. მჭირდება რაღაც ახალი ცვლადი, 
